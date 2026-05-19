@@ -1,16 +1,42 @@
 # Time Series Analysis of Apple Stock Prices
 
-## Synent Technologies Internship - Task 7
+## Synent Technologies Internship – Task 7
 
-### Objective
-The objective of this project is to perform time series analysis on Apple stock price data, identify trends and seasonality, and forecast future stock prices.
+## Problem Statement
+The objective of this project is to analyze Apple stock price data using time series analysis techniques. The project focuses on identifying trends, seasonality, and forecasting future stock prices.
 
-## Dataset
-- Source: Yahoo Finance
+---
+
+## Dataset Details
+- Dataset Source: Yahoo Finance
 - Stock: Apple Inc. (AAPL)
 - Time Period: 2020 to 2025
+- Features Used:
+  - Open Price
+  - High Price
+  - Low Price
+  - Close Price
+  - Trading Volume
 
-## Technologies Used
+Dataset was collected using the yfinance Python library.
+
+---
+
+## Approach
+
+The following steps were performed in this project:
+
+1. Data Collection using Yahoo Finance
+2. Data Cleaning and Preprocessing
+3. Exploratory Data Analysis
+4. Trend Visualization
+5. Trading Volume Analysis
+6. Moving Average Analysis
+7. Daily Return Distribution
+8. Seasonal Decomposition
+9. Forecasting using Prophet Model
+
+### Technologies Used
 - Python
 - Pandas
 - NumPy
@@ -19,25 +45,24 @@ The objective of this project is to perform time series analysis on Apple stock 
 - Statsmodels
 - Prophet
 
-## Project Workflow
-1. Data Collection
-2. Data Cleaning
-3. Trend Analysis
-4. Volume Analysis
-5. Moving Average Analysis
-6. Daily Return Analysis
-7. Seasonality Detection
-8. Forecasting using Prophet
+---
 
-## Key Insights
-- Apple stock prices showed strong long-term growth.
-- Trading volume spikes indicated market volatility.
-- Moving averages confirmed positive long-term trends.
-- Seasonal patterns were identified using decomposition.
-- Prophet forecasting predicted continued future growth.
+## Results
+
+- Apple stock prices showed strong long-term upward growth.
+- Trading volume spikes indicated periods of market volatility.
+- Moving averages confirmed positive market momentum.
+- Seasonal decomposition identified repeating patterns in stock movement.
+- Prophet forecasting predicted continued future growth trends.
+
+---
 
 ## Conclusion
-The project successfully analyzed Apple stock price behavior and generated future predictions using time series forecasting techniques.
+
+This project successfully performed time series analysis and forecasting on Apple stock data using Python. The project provided valuable insights into stock trends, seasonality, and future predictions.
+
+---
 
 ## Developed By
+
 Shivansh Dalvadi
